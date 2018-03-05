@@ -1,6 +1,17 @@
 # Compiled class file
 *.class
 
+# Idea
+.idea/
+*.iml
+
+# Eclipse
+.project/
+.DS_Store
+
+.classpath
+target/
+
 # Log file
 *.log
 
