@@ -9,7 +9,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index(Model model){
-        model.addAttribute("hallo","world");
+        model.addAttribute("title","上海小应信息科技有限公司");
 
         return "index"; //render index.html
     }
