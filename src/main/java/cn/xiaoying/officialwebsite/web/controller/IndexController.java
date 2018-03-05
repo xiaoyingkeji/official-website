@@ -9,10 +9,8 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index(Model model){
+        model.addAttribute("hallo","world");
 
-        model.addAttribute("hallo","110");
-
-
-        return "index";
+        return "index"; //render index.html
     }
 }
